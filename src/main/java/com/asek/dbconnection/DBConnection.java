@@ -61,7 +61,7 @@ public class DBConnection {
 
            int i = ps.executeUpdate();
 
-           if(i != 0) {
+           if (i != 0) {
                System.out.println(u.getFirstname() + " was inserted successfully.");
            }
            else {
